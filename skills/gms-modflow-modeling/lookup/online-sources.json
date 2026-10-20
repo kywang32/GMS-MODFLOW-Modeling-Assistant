@@ -1,0 +1,46 @@
+{
+  "note": "Link catalog only. Entries are NOT pre-downloaded, and citing a link does not establish that content was actually checked during this run.",
+  "gms_ui_primary": [
+    {
+      "name": "GMS User Manual 10.8",
+      "publisher": "Aquaveo / XMS Wiki",
+      "url": "https://www.xmswiki.com/wiki/GMS:GMS_User_Manual_10.8",
+      "role": "Primary source for GMS 10.8 interface steps and commands",
+      "version": "10.8"
+    }
+  ],
+  "gms_release_and_version": [
+    {
+      "name": "GMS Downloads",
+      "publisher": "Aquaveo",
+      "url": "https://aquaveo.com/downloads-gms",
+      "role": "Check GMS available versions and releases"
+    }
+  ],
+  "modflow_engine_sources": [
+    {
+      "name": "MODFLOW and Related Programs",
+      "publisher": "USGS",
+      "url": "https://www.usgs.gov/mission-areas/water-resources/science/modflow-and-related-programs",
+      "role": "Engine version families and authoritative entry point"
+    },
+    {
+      "name": "MODFLOW-2005 Software and Documentation",
+      "publisher": "USGS",
+      "url": "https://www.usgs.gov/software/modflow-2005-usgs-three-dimensional-finite-difference-ground-water-model",
+      "role": "MODFLOW-2005 engine theory and packages"
+    },
+    {
+      "name": "MODFLOW-NWT Software and Documentation",
+      "publisher": "USGS",
+      "url": "https://www.usgs.gov/software/modflow-nwt-a-newton-formulation-modflow-2005",
+      "role": "MODFLOW-NWT solver and UPW/package details"
+    },
+    {
+      "name": "Combined MODFLOW Input Guide",
+      "publisher": "USGS",
+      "url": "https://water.usgs.gov/nrp/gwsoftware/modflow2000/MFDOC/",
+      "role": "MODFLOW-2005 / NWT and related input descriptions; verify version on each page"
+    }
+  ]
+}

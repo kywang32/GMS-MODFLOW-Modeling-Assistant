@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "gms-modflow-modeling-assistant",
+  "version": "1.0.0",
+  "description": "Documentation-grounded, version-aware, step-by-step guidance for GMS and MODFLOW groundwater modeling.",
+  "author": {
+    "name": "Kunyang Wang"
+  },
+  "license": "MIT",
+  "keywords": [
+    "GMS",
+    "MODFLOW",
+    "groundwater",
+    "hydrogeology",
+    "numerical modeling",
+    "Aquaveo"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "GMS MODFLOW Assistant Gen II",
+        "developerName": "Kunyang Wang",
+        "shortDescription": "GMS/MODFLOW modeling guidance",
+        "longDescription": "Step-by-step groundwater modeling help grounded in the GMS 10.8 User Manual when available. Covers conceptual models, gridding, boundary conditions, MODFLOW configuration, calibration, and numerical troubleshooting. Software-version differences and source verification are made explicit.",
+        "category": "Education & Research",
+        "capabilities": [
+          "skills"
+        ],
+        "composerIcon": "./assets/gpt-icon.png",
+        "logo": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "依据 GMS 10.8 手册，指导我设置 MODFLOW 的边界条件。",
+          "How do I set up stress periods and time steps in GMS 10.8?",
+          "Help me diagnose non-convergence in a MODFLOW-NWT model built with GMS."
+        ]
+      }
+    }
+  }
+}

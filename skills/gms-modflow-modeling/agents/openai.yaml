@@ -1,0 +1,4 @@
+interface:
+  display_name: GMS MODFLOW Assistant Gen II
+  short_description: GMS/MODFLOW modeling guidance
+  default_prompt: 依据 GMS 10.8 手册，下一步我在界面中应如何操作？
