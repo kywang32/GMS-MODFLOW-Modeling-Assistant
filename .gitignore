@@ -1,0 +1,18 @@
+# Local downloaded manuals and model files; do not re-distribute in this repository.
+**/*.pdf
+**/*.chm
+*.gpr
+*.gms
+*.hds
+*.cbc
+*.lst
+*.nam
+*.bak
+*.tmp
+
+# Python/cache/filesystem artifacts
+**/__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.cache/
